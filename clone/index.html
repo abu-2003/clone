@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon clone</title>
+    <!--css file-->
+    <link rel="stylesheet" href="style.css" />
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />   
+        <!-- tailwind css -->
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+
+<body class="bg-gray-100">
+    <header>
+        <nav>
+            <div class="top-nav">
+                <div class="nav-logo border">
+                    <div class="logo">
+                        <img src="./assets/amazon_logo.png" alt="">
+                    </div>
+                </div>
+                <div class="nav-location border">
+                    <p class="location-first">Deliver to</p>
+                    <div class="location-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="location-second">
+                           INDIA 
+                        </p>
+                    </div>
+                </div>
+                <div class="nav-search">
+                    <select class="category class text-gray-900" id="">
+                        <option>All</option>
+                        <option value="">Baby</option>
+                        <option value="">Beauty</option>
+                        <option value="">Amazon store</option>
+                        <option value="">Alexa</option>
+                    </select>
+                    <input type="text" placeholder="Search Amazon.in" class="search-input">
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                <div class="nav-language border">
+                    <div class="lang-select">
+                        <img src="./assets/USFlag.png" alt="">
+                        <select class="lang-select">
+                            <option>EN</option>
+                            <option>Hindi</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="nav-signin border">
+                    <p class="first-signin">Hello, sign</p>
+                    <p class="second-signin">Account & List</p>
+
+                </div>
+                <div class="nav-signin border"> 
+                    <p class="first-signin">Return</p>
+                    <p class="second-signin">& Orders</p></div>
+                    <div class="nav-cart border">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <p>Cart</p>
+                    </div>             
+            </div>
+ <div class="bottom-nav">
+   <div class="bnav-left">
+    <div class="all border">
+        <i class="fa-solid fa-bars"></i>
+        <p >All</p>
+    </div>
+    <div class="options">
+        <a class="border">Sell</a> 
+       <a class="border" >Amazon miniTV</a> 
+       <a class="border" >Best Sellers</a> 
+       <a class="border" >Mobiles</a> 
+       <a class="border" >Today's Deals </a> 
+       <a class="border" >Costomer Service</a> 
+       <a class="border" >Electronics</a> 
+
+    </div>
+    <div class="bnav-right pl-9 border">
+        <img src="./assets/400x39-SWM-NP._CB564709123_.jpg" alt="">
+      </div>
+</div>
+            </div>
+        </nav>
+    </header>
+  <div class="hero-section">
+    
+  </div>
+  <div class="products">
+  <div class="grid grid-cols-1 md:grid-cols-4 gap-6 p-6 ">
+
+    <!-- First Section -->
+    <div class="bg-white shadow-lg p-6">
+      <h2 class="text-xl font-bold mb-4">Revamp your home in style</h2>
+      <div class="grid grid-cols-2 gap-4">
+        <div class="space-y-2">
+          <img src="./assets/1.jpg" alt="Cushion covers" class="w-full h-20">
+          <p class="text-sm text-gray-600">Cushion covers, bedsheets</p>
+        </div>
+        <div class="space-y-2">
+          <img src="./assets/grid/186x116_Home_decor_1._SY116_CB555624324_.jpg" alt="Figurines" class="w-full h-20 ">
+          <p class="text-sm text-gray-600">Figurines, vases & more</p>
+        </div>
+        <div class="space-y-2">
+          <img src="./assets/3.jpg" alt="Home storage" class="w-full h-20">
+          <p class="text-sm text-gray-600">Home storage</p>
+        </div>
+        <div class="space-y-2">
+          <img src="./assets/4.jpg" alt="Lighting solutions" class="w-full h-20">
+          <p class="text-sm text-gray-600">Lighting solutions</p>
+        </div>
+      </div>
+      <a href="#" class="block mt-4 text-teal-500 font-thin text-sm">Explore all</a>
+    </div>
+
+    <!-- Second Section -->
+    <div class="bg-white shadow-lg p-6">
+      <h2 class="text-xl font-bold mb-4">Appliances for your home | Up to 55% off</h2>
+      <div class="grid grid-cols-2 gap-4">
+        <div class="space-y-2">
+          <img src="./assets/grid/Appliances-QC-PC-372x232----B08RDL6H79._SY232_CB667322346_.jpg" alt="Air conditioners" class="w-full h-20">
+          <p class="text-sm text-gray-600">Air conditioners</p>
+        </div>
+        <div class="space-y-2">
+          <img src="./assets/grid/Appliances-QC-PC-186x116--B08CPQVLZT._SY232_CB667322346_.jpg" alt="Washing machines" class="w-full h-20">
+          <p class="text-sm text-gray-600">Washing machines</p>
+        </div>
+        <div class="space-y-2">
+          <img src="./assets/grid/B08345R1ZW---372x232._SY232_CB667322346_.jpg" alt="Refrigerators" class="w-full h-20">
+          <p class="text-sm text-gray-600">Refrigerators</p>
+        </div>
+        <div class="space-y-2">
+          <img src="./assets/grid/B07G5J5FYP._SY232_CB667322346_.jpg" alt="Microwaves" class="w-full h-20">
+          <p class="text-sm text-gray-600">Microwaves</p>
+        </div>
+       
+      </div>
+      <a href="#" class="block mt-4 text-teal-500 text-sm">See more</a>
+    </div>
+    <!-- 3rd -->
+    <div class="bg-white shadow-lg p-6">
+        <h2 class="text-xl font-bold mb-4">Starting ₹149 | Headphones</h2>
+        <div class="grid grid-cols-2 gap-4">
+          <div class="space-y-2">
+            <img src="./assets/grid/PC_QuadCard_boAt._SY232_CB553870684_.jpg" alt="Air conditioners" class="w-full h-20">
+            <p class="text-sm text-gray-600">Boat Starting ₹149</p>
+          </div>
+          <div class="space-y-2">
+            <img src="./assets/grid/PC_QuadCard_Boult._SY232_CB553870684_.jpg" alt="Refrigerators" class="w-full h-20">
+            <p class="text-sm text-gray-600">Boult Starting ₹149</p>
+          </div>
+          <div class="space-y-2 ">
+            <img src="./assets/grid/PC_QuadCard_Noise._SY232_CB553870684_.jpg" alt="Microwaves" class="w-full h-20">
+            <p class="text-sm text-gray-600"> Noise </p>
+          </div>
+          <div class="space-y-2 ">
+            <img src="./assets/grid/PC_QuadCard_Zeb_1._SY232_CB570220221_.jpg" alt="Washing machines" class="w-full h-20">
+            <p class="text-sm text-gray-600">zebronics</p>
+          </div>
+        </div>
+        <a href="#" class="block mt-4 text-teal-500 text-sm">See more</a>
+      </div>
+      <!-- 4th -->
+       <div class="grid-cols-1">
+      <div class="bg-white shadow-lg p-5">
+        <h2 class="text-xl font-bold mb-4 text-start">Sign in for your best experience</h2>
+        
+        <button class="bg-yellow-500 text-black py-1 px-16 rounded-full hover:bg-yellow-600 ">
+            Sign in securely
+          </button>
+          
+      </div>
+      <div class="bg-white shadow-lg  mt-6">
+        <img src="https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/bdab6939-6f90-4261-9560-69304f815a96.jpg" alt="">
+      </div>
+    </div>
+      <div class="bg-white shadow-lg p-6">
+        <h2 class="text-xl font-bold mb-4">Starting ₹99 | Amazon Brands & more</h2>
+        <div class="grid grid-cols-2 gap-4">
+          <div class="space-y-2">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/PB/March/Bikram/QC_372_All_customer_july_1._SY232_CB567469124_.jpg" alt="Air conditioners" class="w-full h-20">
+            <p class="text-sm text-gray-600">Air conditioners</p>
+          </div>
+          <div class="space-y-2">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/PB/March/Bikram/PC_QC_372_Updated._SY232_CB567468621_.jpg" alt="Refrigerators" class="w-full h-20">
+            <p class="text-sm text-gray-600">Refrigerators</p>
+          </div>
+          <div class="space-y-2">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/PB/March/Bikram/QC_372_All_customer_july_3._SY232_CB567469124_.jpg" alt="Microwaves" class="w-full h-20">
+            <p class="text-sm text-gray-600">Microwaves</p>
+          </div>
+          <div class="space-y-2">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/PB/March/Bikram/QC_372_All_customer_july_2._SY232_CB567469224_.jpg" alt="Washing machines" class="w-full h-20">
+            <p class="text-sm text-gray-600">Washing machines</p>
+          </div>
+        </div>
+        <a href="#" class="block mt-4 text-teal-500 text-sm">See more</a>
+      </div>
+  <!--  -->
+  <div class="bg-white shadow-lg p-6">
+    <h2 class="text-xl font-bold mb-4">Appliances for your home | Up to 55% off</h2>
+    <div class="grid grid-cols-2 gap-4">
+      <div class="space-y-2">
+        <img src="./assets/1.jpg" alt="Air conditioners" class="w-full h-20">
+        <p class="text-sm text-gray-600">Air conditioners</p>
+      </div>
+      <div class="space-y-2">
+        <img src="./assets/1.jpg" alt="Refrigerators" class="w-full h-20">
+        <p class="text-sm text-gray-600">Refrigerators</p>
+      </div>
+      <div class="space-y-2">
+        <img src="./assets/1.jpg" alt="Microwaves" class="w-full h-20">
+        <p class="text-sm text-gray-600">Microwaves</p>
+      </div>
+      <div class="space-y-2">
+        <img src="./assets/1.jpg" alt="Washing machines" class="w-full h-20">
+        <p class="text-sm text-gray-600">Washing machines</p>
+      </div>
+    </div>
+    <a href="#" class="block mt-4 text-teal-500 text-sm">See more</a>
+  </div> 
+ 
+<!--  -->
+<div class="bg-white shadow-lg p-6">
+    <h2 class="text-xl font-bold mb-4">Starting ₹199 | Amazon Brands & more</h2>
+    <div class="grid grid-cols-2 gap-4">
+      <div class="space-y-2">
+        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/PB/March/Bikram/PC_QC_HOME_SIZE_372_2._SY232_CB567468220_.jpg" alt="Air conditioners" class="w-full h-auto rounded">
+        <p class="text-sm text-gray-600">Air conditioners</p>
+      </div>
+      <div class="space-y-2">
+        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/PB/March/Bikram/PC_QC_HOME_SIZE_372_3._SY232_CB567468220_.jpg" alt="Refrigerators" class="w-full h-20">
+        <p class="text-sm text-gray-600">Refrigerators</p>
+      </div>
+      <div class="space-y-2">
+        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/PB/March/Bikram/PC_QC_HOME_SIZE_372_4._SY232_CB567468220_.jpg" alt="Microwaves" class="w-full h-20">
+        <p class="text-sm text-gray-600">Microwaves</p>
+      </div>
+      <div class="space-y-2">
+        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/PB/March/Bikram/PC_QC_HOME_SIZE_372_1._SY232_CB567468220_.jpg" alt="Washing machines" class="w-full h-20">
+        <p class="text-sm text-gray-600">Washing machines</p>
+      </div>
+    </div>
+    <a href="#" class="block mt-4 text-teal-500 text-sm">See more</a>
+  </div>
+<!--  -->
+<div class="bg-white shadow-lg p-6">
+    <h2 class="text-xl font-bold mb-4">Automotive essentials | Up to 60% off</h2>
+    <div class="grid grid-cols-2 gap-4">
+      <div class="space-y-2">
+        <img src="./assets/grid/QC_372_All_customer_july_3._SY232_CB567469124_.jpg" alt="Air conditioners" class="w-full h-20">
+        <p class="text-sm text-gray-600">Air conditioners</p>
+      </div>
+      <div class="space-y-2">
+        <img src="./assets/grid/QC_372_All_customer_july_2._SY232_CB567469224_.jpg" alt="Refrigerators" class="w-full h-20">
+        <p class="text-sm text-gray-600">Refrigerators</p>
+      </div>
+      <div class="space-y-2">
+        <img src="./assets/grid/QC_372_All_customer_july_2._SY232_CB567469224_.jpg" alt="Microwaves" class="w-full h-20">
+        <p class="text-sm text-gray-600">Microwaves</p>
+      </div>
+      <div class="space-y-2">
+        <img src="./assets/grid/QC_372_All_customer_july_1._SY232_CB567469124_.jpg" alt="Washing machines" class="w-full h-20">
+        <p class="text-sm text-gray-600">Washing machines</p>
+      </div>
+    </div>
+    <a href="#" class="block mt-4 text-teal-500 text-sm">See more</a>
+  </div>
+
+  </div>
+  <div>
+  <div class="overflow-x-scroll whitespace-nowrap scroll-product cursor-pointer p-5">
+    <h1 class="p-2 font-bold">Blockbuster Deals</h1>
+    <div class="inline-block prd ml-9">
+      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHfnbmNC2x2RYN_zpk69Z71OikIv9Q2rC1MeeiKJLStLjyWNZZ2yC3Injj9BKVzQ-sFNNT9Cm7CHz_sQxzVjlrtuY1fu06GEPaXWqFjCQ" alt="Image 1" class="h-48 inline-block ">
+    </div>
+    <div class="inline-block prd ml-9">
+      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTNjZpqct6vDFfknKP8M64_eW7K2Sv91TUgKZ7yDLo0bMWUcOetynBWdRqy-fEEhmjvm4SnMkMhbGuZxcAd0A00ZZ0VkBIv3ItmxEmwE62PIqY7piBeItZEyA" alt="Image 2" class="h-48 inline-block">
+    </div>
+    <div class="inline-block prd ml-9">
+      <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ0bmHX_d1fUxRWOu70t9SS_RpsyQrHNSUm3Wf-NpIzoQfWw8_D2nuots9GVWlO8fs_JNkQLUy8Ua_LF7ZoveHxavGl0jXDvj86GHqsOaTv6D4dFtL5ZMS7" alt="Image 3" class="h-48 inline-block">
+    </div>
+    <div class="inline-block prd ml-9">
+      <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRpZNJih2djvi6jRKtRP54CsUB27dor-u3sgLxZSISpvGvVwZ-zMdbiAqf6emrC3yaFvcS_NRQhg4jb0jrFQ5iP4SRqwhgB_opU3aTztg70XQ8rjXcT4SFWkQ" alt="Image 4" class="h-48 inline-block">
+    </div>
+    <div class="inline-block prd ml-9">
+      <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ_MOOhYPZ-95y3nomk_7f5qC_ykxp3_2V0CfH8AahQ_eupk8lMslivId1jKJkwr-DPAS5G05-qf4dtqELKhUP2yND5gEOKyAOrfBoY7EWuDoJPsZXmuS76" alt="Image 4" class="h-48 inline-block">
+    </div>
+    <div class="inline-block prd ml-9">
+      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTN73DxWPm16yNpl0rxwQkWPvs_CFMw_UWcfVxjohSmNmb2AYyVfIOcUrTtsHsd1lQ5bYxEAzg7CB1-0T2M_9qp37iiUfkmGoZJ6yOxvOlCQWKHL8DOmT41hQ" alt="Image 4" class="h-48 inline-block">
+    </div>
+    <div class="inline-block prd ml-9">
+      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHfnbmNC2x2RYN_zpk69Z71OikIv9Q2rC1MeeiKJLStLjyWNZZ2yC3Injj9BKVzQ-sFNNT9Cm7CHz_sQxzVjlrtuY1fu06GEPaXWqFjCQ" alt="Image 1" class="h-48 inline-block ">
+    </div>
+    <div class="inline-block prd ml-9">
+      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTNjZpqct6vDFfknKP8M64_eW7K2Sv91TUgKZ7yDLo0bMWUcOetynBWdRqy-fEEhmjvm4SnMkMhbGuZxcAd0A00ZZ0VkBIv3ItmxEmwE62PIqY7piBeItZEyA" alt="Image 2" class="h-48 inline-block">
+    </div>
+    <div class="inline-block prd ml-9">
+      <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ0bmHX_d1fUxRWOu70t9SS_RpsyQrHNSUm3Wf-NpIzoQfWw8_D2nuots9GVWlO8fs_JNkQLUy8Ua_LF7ZoveHxavGl0jXDvj86GHqsOaTv6D4dFtL5ZMS7" alt="Image 3" class="h-48 inline-block">
+    </div>
+    <div class="inline-block prd ml-9">
+      <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRpZNJih2djvi6jRKtRP54CsUB27dor-u3sgLxZSISpvGvVwZ-zMdbiAqf6emrC3yaFvcS_NRQhg4jb0jrFQ5iP4SRqwhgB_opU3aTztg70XQ8rjXcT4SFWkQ" alt="Image 4" class="h-48 inline-block">
+    </div>
+    <div class="inline-block prd ml-9">
+      <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ_MOOhYPZ-95y3nomk_7f5qC_ykxp3_2V0CfH8AahQ_eupk8lMslivId1jKJkwr-DPAS5G05-qf4dtqELKhUP2yND5gEOKyAOrfBoY7EWuDoJPsZXmuS76" alt="Image 4" class="h-48 inline-block">
+    </div>
+    <div class="inline-block prd ml-9">
+      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTN73DxWPm16yNpl0rxwQkWPvs_CFMw_UWcfVxjohSmNmb2AYyVfIOcUrTtsHsd1lQ5bYxEAzg7CB1-0T2M_9qp37iiUfkmGoZJ6yOxvOlCQWKHL8DOmT41hQ" alt="Image 4" class="h-48 inline-block">
+    </div>
+    <div class="inline-block prd ml-9">
+      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHfnbmNC2x2RYN_zpk69Z71OikIv9Q2rC1MeeiKJLStLjyWNZZ2yC3Injj9BKVzQ-sFNNT9Cm7CHz_sQxzVjlrtuY1fu06GEPaXWqFjCQ" alt="Image 1" class="h-48 inline-block ">
+    </div>
+    <div class="inline-block prd ml-9">
+      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTNjZpqct6vDFfknKP8M64_eW7K2Sv91TUgKZ7yDLo0bMWUcOetynBWdRqy-fEEhmjvm4SnMkMhbGuZxcAd0A00ZZ0VkBIv3ItmxEmwE62PIqY7piBeItZEyA" alt="Image 2" class="h-48 inline-block">
+    </div>
+    <div class="inline-block prd ml-9">
+      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHfnbmNC2x2RYN_zpk69Z71OikIv9Q2rC1MeeiKJLStLjyWNZZ2yC3Injj9BKVzQ-sFNNT9Cm7CHz_sQxzVjlrtuY1fu06GEPaXWqFjCQ" alt="Image 1" class="h-48 inline-block ">
+    </div>
+    <div class="inline-block prd ml-9">
+      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTNjZpqct6vDFfknKP8M64_eW7K2Sv91TUgKZ7yDLo0bMWUcOetynBWdRqy-fEEhmjvm4SnMkMhbGuZxcAd0A00ZZ0VkBIv3ItmxEmwE62PIqY7piBeItZEyA" alt="Image 2" class="h-48 inline-block">
+    </div>
+    <div class="inline-block prd ml-9">
+      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHfnbmNC2x2RYN_zpk69Z71OikIv9Q2rC1MeeiKJLStLjyWNZZ2yC3Injj9BKVzQ-sFNNT9Cm7CHz_sQxzVjlrtuY1fu06GEPaXWqFjCQ" alt="Image 1" class="h-48 inline-block ">
+    </div>
+    <div class="inline-block prd ml-9">
+      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTNjZpqct6vDFfknKP8M64_eW7K2Sv91TUgKZ7yDLo0bMWUcOetynBWdRqy-fEEhmjvm4SnMkMhbGuZxcAd0A00ZZ0VkBIv3ItmxEmwE62PIqY7piBeItZEyA" alt="Image 2" class="h-48 inline-block">
+    </div>
+    <div class="inline-block prd ml-9"></div>
+      <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ0bmHX_d1fUxRWOu70t9SS_RpsyQrHNSUm3Wf-NpIzoQfWw8_D2nuots9GVWlO8fs_JNkQLUy8Ua_LF7ZoveHxavGl0jXDvj86GHqsOaTv6D4dFtL5ZMS7" alt="Image 3" class="h-48 inline-block">
+      <div class="inline-block prd ml-9">
+        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHfnbmNC2x2RYN_zpk69Z71OikIv9Q2rC1MeeiKJLStLjyWNZZ2yC3Injj9BKVzQ-sFNNT9Cm7CHz_sQxzVjlrtuY1fu06GEPaXWqFjCQ" alt="Image 1" class="h-48 inline-block ">
+      </div>
+      <div class="inline-block prd ml-9">
+        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTNjZpqct6vDFfknKP8M64_eW7K2Sv91TUgKZ7yDLo0bMWUcOetynBWdRqy-fEEhmjvm4SnMkMhbGuZxcAd0A00ZZ0VkBIv3ItmxEmwE62PIqY7piBeItZEyA" alt="Image 2" class="h-48 inline-block">
+      </div>
+      <div class="inline-block prd ml-9">
+        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHfnbmNC2x2RYN_zpk69Z71OikIv9Q2rC1MeeiKJLStLjyWNZZ2yC3Injj9BKVzQ-sFNNT9Cm7CHz_sQxzVjlrtuY1fu06GEPaXWqFjCQ" alt="Image 1" class="h-48 inline-block ">
+      </div>
+      <div class="inline-block prd ml-9">
+        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTNjZpqct6vDFfknKP8M64_eW7K2Sv91TUgKZ7yDLo0bMWUcOetynBWdRqy-fEEhmjvm4SnMkMhbGuZxcAd0A00ZZ0VkBIv3ItmxEmwE62PIqY7piBeItZEyA" alt="Image 2" class="h-48 inline-block">
+      </div>
+      <div class="inline-block prd ml-9"></div>
+        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ0bmHX_d1fUxRWOu70t9SS_RpsyQrHNSUm3Wf-NpIzoQfWw8_D2nuots9GVWlO8fs_JNkQLUy8Ua_LF7ZoveHxavGl0jXDvj86GHqsOaTv6D4dFtL5ZMS7" alt="Image 3" class="h-48 inline-block">
+    </div>
+  </div>
+ 
+  
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 bg-gray-100 p-4">
+      <!-- Card 1 -->
+      <div class="bg-white shadow-md p-4">
+        <h2 class="text-xl font-bold mb-4">Up to 50% off | International brands</h2>
+        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/OOC/Gateway/22/PC_CC_758x608_1._SY608_CB558900908_.jpg" alt="International brands" class="w-full h-72">
+       
+        <a href="#" class="text-teal-600 mt-2 inline-block">See all offers</a>
+      </div>
+    
+      <!-- Card 2 -->
+      <div class="bg-white shadow-md p-4">
+        <h2 class="text-lg font-bold mb-4">Up to 60% off | Furniture and sofas</h2>
+        <img src="https://m.media-amazon.com/images/I/61C6gufR04L._AC_SY340_.jpg" alt="Furniture and sofas" class="w-full h-72">
+        
+        <a href="#" class="text-teal-600 mt-2 inline-block text-sm">See all offers</a>
+      </div>
+    
+      <!-- Card 3 -->
+      <div class="bg-white shadow-md p-4">
+        <h2 class="text-lg font-bold mt-4">Minimum 50% off | Indoor plants</h2>
+        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img18/Lawn_Garden/Ud/2024/PCCC/01-379_X_304-min._SY304_CB556163815_.jpg" alt="Indoor plants" class="w-full h-72">
+        
+        <a href="#" class="text-teal-600 mt-2 inline-block text-sm">See more</a>
+      </div>
+    
+      <!-- Card 4 -->
+      <div class="bg-white shadow-md p-4">
+        <h2 class="text-xl font-bold mb-4">Gift ideas inspired by your shopping history</h2>
+        <img src="./assets/Screenshot 2024-09-09 201847.png" alt="Gift ideas" class="w-full h-72">
+        
+        <a href="#" class="text-teal-600 mt-2 inline-block text-sm">See more</a>
+      </div>
+    </div>
+    
+  <!-- sign in -->
+  <div class="flex flex-col items-center justify-center  border-b border-gray-300 border-t">
+   
+    <p class="text-sm mb-1 mt-9">See personalized recommendations</p>
+  
+    <!-- Button section -->
+    <button class="bg-yellow-500 hover:bg-yellow-600 text-black font-bold px-20 rounded text-sm py-1">
+      Sign in
+    </button>
+  
+    <!-- Link section -->
+    <a href="#" class="mt-1 text-xs mb-4">New customer?<span class="text-blue-600"> Start here.</span> </a>
+
+  </div>
+  <!-- back to top -->
+  <div class="flex justify-center bg-gray-700 hover:bg-gray-600 p-2 mt-4 cursor-pointer">
+    
+  <a href="#" class="text-white text-sm ">Back to Top</a>
+  
+  </div>
+<!-- footer -->
+<footer class="bg-gray-800 text-white py-8 pt-20">
+  <!-- Footer Columns -->
+  <div class="max-w-7xl mx-auto px-24 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+    <!-- Column 1 -->
+    <div>
+      <h3 class="font-bold mb-4">Get to Know Us</h3>
+      <ul>
+        <li><a href="#" class="hover:underline text-sm">About Us</a></li>
+        <li><a href="#" class="hover:underline text-sm">Careers</a></li>
+        <li><a href="#" class="hover:underline text-sm">Press Releases</a></li>
+        <li><a href="#" class="hover:underline text-sm">Amazon Science</a></li>
+      </ul>
+    </div>
+    <!-- Column 2 -->
+    <div>
+      <h3 class="font-bold mb-4">Connect with Us</h3>
+      <ul>
+        <li><a href="#" class="hover:underline text-sm">Facebook</a></li>
+        <li><a href="#" class="hover:underline text-sm">Twitter</a></li>
+        <li><a href="#" class="hover:underline text-sm">Instagram</a></li>
+      </ul>
+    </div>
+    <!-- Column 3 -->
+    <div>
+      <h3 class="font-bold mb-4">Make Money with Us</h3>
+      <ul>
+        <li><a href="#" class="hover:underline text-sm">Sell on Amazon</a></li>
+        <li><a href="#" class="hover:underline text-sm">Sell under Amazon Accelerator</a></li>
+        <li><a href="#" class="hover:underline text-sm">Protect and Build Your Brand</a></li>
+        <li><a href="#" class="hover:underline text-sm">Amazon Global Selling</a></li>
+        <li><a href="#" class="hover:underline text-sm">Supply to Amazon</a></li>
+        <li><a href="#" class="hover:underline text-sm">Become an Affiliate</a></li>
+        <li><a href="#" class="hover:underline text-sm">Fulfilment by Amazon</a></li>
+       
+      </ul>
+    </div>
+    <!-- Column 4 -->
+    <div>
+      <h3 class="font-bold mb-4">Let Us Help You</h3>
+      <ul>
+        <li><a href="#" class="hover:underline text-sm">Your Account</a></li>
+        <li><a href="#" class="hover:underline text-sm">Returns Centre</a></li>
+        <li><a href="#" class="hover:underline">Recalls and Product Safety Alerts</a></li>
+        <li><a href="#" class="hover:underline text-sm">100% Purchase Protection</a></li>
+        <li><a href="#" class="hover:underline text-sm">Amazon App Download</a></li>
+        <li><a href="#" class="hover:underline text-sm">Help</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Footer Bottom -->
+  <div class="mt-8 border-t border-gray-700 pt-4">
+    <div class="max-w-7xl mx-auto px-4 flex items-center justify-center ">
+      <!-- Logo section -->
+     
+        <img class="w-24 pr-6" src="./assets/amazon_logo.png" alt="">
+      
+      <!-- Language and Location section -->
+       <div class="pr-6"> <button class="bg-gray-800 text-white py-1 px-4 rounded hover:bg-gray-700 ">English</button></div>
+        <button class="bg-gray-800 text-white py-1 px-4 rounded hover:bg-gray-700 ">India</button>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</div>
+</body>
+
+</html>
